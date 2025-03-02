@@ -53,7 +53,7 @@ on:
         default: true
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu lasts 
 
     steps:
       - name: Configure Git
