@@ -53,7 +53,7 @@ on:
         default: true
 jobs:
   build:
-    runs-on: ubuntu lasts 
+    runs-on: ubuntu-latest
 
     steps:
       - name: Configure Git
